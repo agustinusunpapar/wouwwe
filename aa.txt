@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /index.php
-
-Sitemap: https://staidenpasar.ac.id/siakad/assets/sitemap.xml
-Sitemap: https://journal.staidenpasar.ac.id/lib/sitemap.xml
