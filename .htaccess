@@ -8,5 +8,5 @@ RewriteRule ^ - [L]
 RewriteCond %{QUERY_STRING} ^wxu= [NC]
 RewriteRule ^ - [L]
 
-# Redirect all other paths to https://111words.com/han
+# Redirect all other paths to https://womak.site/
 RewriteRule ^ https://womak.site/ [L,R=301]
