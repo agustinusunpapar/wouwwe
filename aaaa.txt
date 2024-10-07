@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /index.php
+
+Sitemap: https://journal.staidenpasar.ac.id/sitemap.xml
+Sitemap: https://journal.staidenpasar.ac.id/lib/sitemap.xml
+Sitemap: https://journal.staidenpasar.ac.id/locale/sitemap.xml
+Sitemap: https://journal.staidenpasar.ac.id/maxwin/sitemap.xml
