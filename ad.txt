@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /index.php
 
-Sitemap: https://wwbildungswerk.de/sitemap.xml
+Sitemap: https://journal.staidenpasar.ac.id/sitemap.xml
